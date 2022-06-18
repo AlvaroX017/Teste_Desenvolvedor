@@ -26,8 +26,10 @@ public class Main_SF {
 		}
 		
 		for(Integer c : sequen) {
-			if(n == c || n == c) {
+			if(n == c) {
 				System.out.println("O número "+n+" está na sequência!");
+				
+				keyboard.close();
 				return;
 			}
 		}
